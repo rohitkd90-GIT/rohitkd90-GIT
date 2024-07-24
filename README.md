@@ -1,0 +1,7 @@
+- 👋 Hi, I’m Rohit Dutta
+- 👀 I’m interested in Automation Testing and implementing CI/CD
+- 🌱 I’m currently learning how to become a SDET
+- 💞️ I’m looking to collaborate on all testing topics, tools and frameworks
+- 📫 How to reach me , its easy. My email ID is rohitkd.90@gmail.com
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I am a Test Automation Engineer but need to get my hands on Non-Functional Testing (not-so-fun fact)
