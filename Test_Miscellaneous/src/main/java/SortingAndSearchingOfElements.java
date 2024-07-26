@@ -41,13 +41,13 @@ public class SortingAndSearchingOfElements {
 	@Test
 	public void BubbleSort() {
 
-		int[] arrOfNum = { 352, 258, 717, 1432, 12, 9 };
+		int[] arrOfNum = { 352, 258, 717, 1432, 1, 6000 };
 		int size = arrOfNum.length;
 		int temp = 0;
 
 		for (int i = 0; i < size; i++) {
 			for (int j = i + 1; j < size; j++) {
-				if (arrOfNum[i] < arrOfNum[j]) { // Sort it in Ascending or descending order
+				if (arrOfNum[i] > arrOfNum[j]) { // Sort it in Ascending or descending order
 					temp = arrOfNum[i];
 					arrOfNum[i] = arrOfNum[j];
 					arrOfNum[j] = temp;
@@ -60,5 +60,9 @@ public class SortingAndSearchingOfElements {
 		for (int i = 0; i < size; i++) {
 			System.out.print(arrOfNum[i] + " ");
 		}
+
+		// Print the second largest element in the array
+		System.out.println("\n" + "The second largest element in the array is : " + arrOfNum[size - 2]);
+
 	}
 }
